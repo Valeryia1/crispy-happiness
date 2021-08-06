@@ -1,0 +1,12 @@
+Composite: When I login as a registered user
+When I enter 'krotvaleria@mail.ru' in a field by the xpath '//input[@id='user']'
+When I wait until an element with the xpath '//input[@id='login']' appears
+When I click on an element by the xpath '//input[@id='login']'
+When I wait until an element with the xpath '//input[@id='password']' appears
+When I enter 'Newpassword13' in a field by the xpath '//input[@id='password']'
+When I wait until an element with the xpath '//button[@id='login-submit']' appears
+When I click on an element by the xpath '//button[@id='login-submit']'
+
+
+
+
