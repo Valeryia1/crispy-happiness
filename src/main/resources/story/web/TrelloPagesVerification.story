@@ -13,8 +13,8 @@ When I click on an element by the xpath '//a[@data-test-id='header-member-menu-p
 When I COMPARE_AGAINST baseline with `profile`
 When I click on an element by the xpath '//a[@data-test-id='header-home-button']'
 When I COMPARE_AGAINST baseline with `example` ignoring:
-|ACCEPTABLE_DIFF_PERCENTAGE|
-|5|
+|ELEMENT                                                |ACCEPTABLE_DIFF_PERCENTAGE|
+|By.xpath(//ul[@class='boards-page-board-section-list'])|10                        |
 When I wait until an element with the xpath '//li[@data-test-id='templates']' appears
 When I click on an element by the xpath '//li[@data-test-id='templates']'
 Then the page with the URL 'https://trello.com/templates' is loaded
